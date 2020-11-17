@@ -3,7 +3,7 @@ import { connectedRouterRedirect } from "redux-auth-wrapper/history4/redirect";
 import createHistory from "history/createBrowserHistory";
 import LoadingScreen from "../components/layout/Spinner"; // change it to your custom component
 
-const locationHelper = locationHelperBuilder({});
+const locationHelper = locationHelperBuilder({}); // comment
 const history = createHistory();
 
 export const UserIsAuthenticated = connectedRouterRedirect({
